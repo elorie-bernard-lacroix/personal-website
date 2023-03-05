@@ -95,7 +95,7 @@
   }
   
   .navbar__links:hover {
-    color: #DACEAF;
+    color: rgb(105, 123, 205);
     transition: all 0.3s ease;
   }
   
@@ -215,6 +215,9 @@
     padding: 30px;
   }
 
+  .hero__bold { font-weight: bold; }
+  .hero__light { color: #98a3d4; }
+
   /* .main__image {
     background-image: url('main__img');
     background-repeat: no-repeat;
@@ -226,16 +229,26 @@
    */
   .hero__heading1 {
     text-align: left;
-    font-size: 70px;
-    margin-bottom: 40px;
+    font-size: 100px;
+    margin-bottom: 30px;
     color: rgb(105, 123, 205);
+    font-weight: 540;
   }
 
   .hero__heading2 {
     text-align: left;
-    font-size: 70px;
-    margin-bottom: 100px;
+    font-size: 50px;
+    margin-bottom: 1%;
+    font-weight: 200;
     color: rgb(105, 123, 205);
+  }
+
+  .hero__p1 {
+    font-size: 20px;
+    margin-left:1%;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 3%;
   }
   
   .hero__description {
@@ -643,12 +656,12 @@
   .contact__content {
     color: #fff;
     width: 100%;
-    align-items: center;
+    align-items: left;
   }
 
   .contact__container social__icons{
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
   }
 
   
@@ -796,10 +809,10 @@
   
   .social__icons {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     border-spacing: 20px;
-    align-items: center;
-    justify-items: center;
+    align-items: left;
+    justify-items: left;
     width: 1200px;
   }
 
