@@ -10,35 +10,36 @@ const mobileMenu = () => {
 
 menu.addEventListener('click', mobileMenu);
 
-// Show active menu when scrolling
-const highlightMenu = () => {
-  const elem = document.querySelector('.highlight');
-  const homeMenu = document.querySelector('#home-page');
-  const aboutMenu = document.querySelector('#about-page');
-  const portfolioMenu = document.querySelector('#portfolio-page');
-  let scrollPos = window.scrollY;
-  // console.log(scrollPos);
+// // Show active menu when scrolling
+// const highlightMenu = () => {
+//   const elem = document.querySelector('.highlight');
+//   const homeMenu = document.querySelector('#home-page');
+//   const skillsMenu = document.querySelector('#skills-page');
+//   const portfolioMenu = document.querySelector('#portfolio-page');
+//   const experienceMenu = document.querySelector('#experience-page');
+//   let scrollPos = window.scrollY;
+//   // console.log(scrollPos);
 
-  // adds 'highlight' class to my menu items
-  if (window.innerWidth > 960 && scrollPos < 600) {
-    homeMenu.classList.add('highlight');
-    aboutMenu.classList.remove('highlight');
-    return;
-  } else if (window.innerWidth > 1000 && scrollPos < 1400) {
-    aboutMenu.classList.add('highlight');
-    homeMenu.classList.remove('highlight');
-    portfolioMenu.classList.remove('highlight');
-    return;
-  } else if (window.innerWidth > 1400 && scrollPos < 1900) {
-    portfolioMenu.classList.add('highlight');
-    aboutMenu.classList.remove('highlight');
-    return;
-  }
+//   // adds 'highlight' class to my menu items
+//   if (window.innerWidth > 960 && scrollPos < 600) {
+//     skillsMenu.classList.add('highlight');
+//     // homeMenu.classList.remove('highlight');
+//     return;
+//   } else if (window.innerWidth > 1000 && scrollPos < 1400) {
+//     skillsMenu.classList.add('highlight');
+//     homeMenu.classList.remove('highlight');
+//     portfolioMenu.classList.remove('highlight');
+//     return;
+//   } else if (window.innerWidth > 1400 && scrollPos < 1900) {
+//     portfolioMenu.classList.add('highlight');
+//     skillsMenu.classList.remove('highlight');
+//     return;
+//   }
 
-  if ((elem && window.innerWidth < 1900 && scrollPos < 600) || elem) {
-    elem.classList.remove('highlight');
-  }
-};
+//   if ((elem && window.innerWidth < 1900 && scrollPos < 600) || elem) {
+//     elem.classList.remove('highlight');
+//   }
+// };
 
 window.addEventListener('scroll', highlightMenu);
 window.addEventListener('click', highlightMenu);
@@ -54,3 +55,34 @@ const hideMobileMenu = () => {
 
 menuLinks.addEventListener('click', hideMobileMenu);
 navLogo.addEventListener('click', hideMobileMenu);
+
+
+//mix it up filter
+const mixer = mixitup('.portfolio__container', {
+    selectors: {
+      target: '.portfolio__content'
+    },
+
+    animation: {
+      duration: 300
+    }
+
+})
+
+const linkPortfolio = document.querySelectorAll('.portfolio__item')
+
+function activePortfolio(){
+  if(linkPortfolio){
+
+    linkPortfolio.forEach(l => l.classList.remove('active-portfolio'))
+    this.classList.add('active-portfolio')
+  }
+}
+linkPortfolio.forEach(l => l.addEventListener('click', activePortfolio))
+
+// #f9f9f9, #8cada7, #a5d0a8);
+//ctx.fillStyle = "white";
+//ctx.font = "30px Arial"
+//ctx.fillText("welcome", 100, 100);
+
+//canvas.setAttribute("aria-label", "welcome");
