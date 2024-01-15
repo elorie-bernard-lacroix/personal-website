@@ -228,8 +228,6 @@
     font-weight: 900;
     background: linear-gradient(200deg, #f9f9f9, #8cada7, #a5d0a8);
     background-size: 600% 600%;
-    padding-left: 12%;
-    padding-right: 12%;
 
     color: transparent;
     -webkit-background-clip: text;
@@ -265,8 +263,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 12%;
-    padding-right: 12%;
     
   }
   .wrapper .static-txt{
@@ -277,8 +273,8 @@
   }
   .wrapper .dynamic-txts{
     margin-left: 15px;
-    height: 80px;
-    line-height: 80px;
+    height: 90px;
+    line-height: 90px;
     overflow: hidden;
 
   }
