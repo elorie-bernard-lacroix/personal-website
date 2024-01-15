@@ -1,3 +1,3 @@
 # personal-website
 
-This is the code to my personal website, which is published at [elorie-bernard-lacroix.github.io](elorie-bernard-lacroix.github.io).
+Click on this link to access: [elorie-bernard-lacroix.github.io](https://elorie-bernard-lacroix.github.io/)
