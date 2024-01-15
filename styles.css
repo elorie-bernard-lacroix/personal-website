@@ -573,6 +573,17 @@
       font-size: 2.5rem;
   }
 
+  .experience h2 {
+      color: #fff;
+      background-color: #fff;
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -moz-text-fill-color: transparent;
+      margin-bottom: 10px;
+      font-size: 25px;
+  }
+
   .container {
     min-height: 100vh;
     width: 100%;
