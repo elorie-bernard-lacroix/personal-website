@@ -791,7 +791,6 @@
   }
   
   .social__media {
-    max-width: 1000px;
     width: 100%;
   }
   
@@ -800,7 +799,7 @@
     justify-content: space-between;
     align-items: center;
     justify-items: center;
-    width: 90%;
+    width: 100%;
     max-width: 100%;
     margin: 40px auto 0px auto;
   }
@@ -811,7 +810,6 @@
     border-spacing: 20px;
     align-items: center;
     justify-items: center;
-    width: 1200px;
   }
 
   .social__icons a{
