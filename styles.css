@@ -378,6 +378,20 @@
     font-size: 15px;
     color: transparent;
   }
+  .wrapper .dynamic-txts{
+    margin-left: 15px;
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+    color: transparent;
+  }
+
+  .dynamic-txts li span{
+    position: relative;
+    margin: 20% 0;
+    line-height: 70px;
+    color: transparent;
+  }
 
   .dynamic-txts li span::after{
     content: "";
