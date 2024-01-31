@@ -354,6 +354,42 @@
       height: 30%;
       width: 100%;
   }
+
+  
+}
+
+@media screen and (max-width: 480px) {
+  .hero__heading {
+    font-size: 30px;
+  }
+
+  .hero__description {
+    font-size: 15px;
+    color: transparent;
+  }
+
+  .wrapper .static-txt{
+    font-size: 15px;
+    color: transparent;
+  }
+
+
+  .dynamic-txts li{
+    font-size: 15px;
+    color: transparent;
+  }
+
+  .dynamic-txts li span::after{
+    content: "";
+    position: flex;
+    padding-top: 60px;
+    left: 0;
+    height: 30%;
+    width: 100%;
+    color: transparent;
+}
+
+
 }
   
   /* Skills Section */
