@@ -266,6 +266,8 @@
     justify-content: center;
     
   }
+
+  @media screen and (min-width: 900px) {
   .wrapper .static-txt{
     color: #fff;
     font-size: 60px;
@@ -316,94 +318,17 @@
       left: 0;
     }
   }
-  
-  @media screen and (max-width: 900px) {
-    .hero__heading {
-      font-size: 60px;
-    }
-  
-    .hero__description {
-      font-size: 40px;
-    }
-
-    .wrapper .static-txt{
-      font-size: 30px;
-    }
-
-    .wrapper .dynamic-txts{
-      margin-left: 15px;
-      height: 90px;
-      line-height: 90px;
-      overflow: hidden;
-    }
-
-    .dynamic-txts li{
-      font-size: 30px;
-    }
-
-    .dynamic-txts li span{
-      position: relative;
-      margin: 20% 0;
-      line-height: 70px;
-    }
-    .dynamic-txts li span::after{
-      content: "";
-      position: flex;
-      padding-top: 60px;
-      left: 0;
-      height: 30%;
-      width: 100%;
-  }
-
-  
 }
 
-@media screen and (max-width: 480px) {
-  .hero__heading {
-    font-size: 30px;
+@media screen and (max-width: 900px) {
+  .static-txt{
+    color: transparent;
+
   }
 
-  .hero__description {
-    font-size: 15px;
+  .dynamic-txts{
     color: transparent;
   }
-
-  .wrapper .static-txt{
-    font-size: 15px;
-    color: transparent;
-  }
-
-
-  .dynamic-txts li{
-    font-size: 15px;
-    color: transparent;
-  }
-  .wrapper .dynamic-txts{
-    margin-left: 15px;
-    height: 90px;
-    line-height: 90px;
-    overflow: hidden;
-    color: transparent;
-  }
-
-  .dynamic-txts li span{
-    position: relative;
-    margin: 20% 0;
-    line-height: 70px;
-    color: transparent;
-  }
-
-  .dynamic-txts li span::after{
-    content: "";
-    position: flex;
-    padding-top: 60px;
-    left: 0;
-    height: 30%;
-    width: 100%;
-    color: transparent;
-}
-
-
 }
   
   /* Skills Section */
