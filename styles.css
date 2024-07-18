@@ -363,8 +363,22 @@
   padding-bottom: 0%;
 }
 
+.about h1{
+  
+    background-color: #8CADA7;
+    background-image: linear-gradient(to right, #8CADA7 0%, #8CADA7 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    margin-bottom: 2.5rem;
+    margin-top: 1.5rem;
+    font-size: 2.5rem;
+  
+}
 
-.about p{
+.about__content p{
   color: #fff;
   font-size: 18px;
 }
@@ -481,6 +495,19 @@ h3 {
     transform: translateY(-5px); /* Lift on hover */
   }
 
+  .experience h1 {
+    background-color: #8CADA7;
+    background-image: linear-gradient(to right, #8CADA7 0%, #8CADA7 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    margin-bottom: 2.5rem;
+    margin-top: 1.5rem;
+    font-size: 2.5rem;
+  }
+
   .experience h2 {
     font-size: 20px;
     margin-bottom: 10px;
@@ -503,6 +530,7 @@ h3 {
   .description ul {
     margin: 0;
     padding-left: 20px;
+    color: #fff;
   }
 
   .description.visible {
