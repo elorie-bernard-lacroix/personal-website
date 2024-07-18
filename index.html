@@ -33,10 +33,7 @@
         </div>
         <ul class="navbar__menu">
           <li class="navbar__item">
-            <a href="#about" class="navbar__links" id="about-page">skills</a>
-          </li>
-          <li class="navbar__item">
-            <a href="#education" class="navbar__links" id="education-page">education</a>
+            <a href="#about" class="navbar__links" id="about-page">about</a>
           </li>
           <li class="navbar__item">
             <a href="#experience" class="navbar__links" id="experience-page">experience</a>
@@ -65,9 +62,9 @@
             <div class="static-txt">I'm</div>
             <ul class="dynamic-txts">
               <li><span>an engineering student at UofT</span></li>
-              <li><span>a bilingual canadian</span></li>
               <li><span>an aspiring robotics and AI engineer</span></li>
               <li><span>an avid reader</span></li>
+              <li><span>a data brain looking for datasets</span></li>
             </ul>
           </div>
           
@@ -75,133 +72,147 @@
         
     </div>
 
-    <!-- Skills Section -->
-    <div class="skills" id="about">
-      <h1>skills</h1>
-      <div class="skills__container">
-        <div class="skills__wrapper">
-          <div class="skills__card">
-            <h2>development tools</h2>
-            <p>version control (GitHub, Git)</p>
-            <p>agile development methodologies</p> 
-            <p>debugging</p> 
-            <p>integrated development environments (VS Code, Jupyter Notebook, Anaconda)</p>
-          </div>
-          <div class="skills__card">
-            <h2>algorithms & data structures</h2>
-            <p>sorting & searching algorithms</p>
-            <p>graph algorithms</p> 
-            <p>linked lists, arrays, stacks, queues, trees</p>
-            <p>hash tables</p>
-            <p>dynamic programming</p>
-          </div>
-          <div class="skills__card">
-            <h2>data analysis</h2>
-            <p>data modeling (python, NumPy, SciPy, matplotlib)</p>
-            <p>data visualization software (Power BI)</p>
-            <p>diagrams (Microsoft Visio)</p>
-            <p>machine learning (python, Scikit-Learn, Pandas)</p>
-          </div>
-          <div class="skills__card">
-            <h2>robotics</h2>
-            <p>computer-aided design (Onshape, AutoCAD, Fusion 360)</p>
-            <p>object-oriented programming (Python, C, Java)</p>
-            <p>robot operating system</p>
-            <p>ubuntu</p>
-            <p>control systems</p>
-            <p>computer vision (camera calibration)</p>
-          </div>
-          <div class="skills__card">
-            <h2>hardware design</h2>
-            <p>digital logic</p>
-            <p>circuit design</p>
-            <p>FPGA programming (System Verilog)</p> 
-            <p>HDL simulation (ModelSIM)</p>
-            <p>hardware troubleshooting & upgrades</p>
-            <p>low-level programming (RISC-V)</p>
-          </div>
-          <div class="skills__card">
-            <h2>entreprise IT</h2>
-            <p>active directory</p>
-            <p>networks (VLAN, Cisco VoIP)</p>
-            <p>automation (PowerShell)</p> 
-            <p>hardware & software troubleshooting</p>
-            <p>Windows & Linux operating systems</p>
-            <p>POS systems</p>
-          </div>
+    <!-- About Me -->
+
+    <div class="about" id ="about">
+
+      <h1>about me</h1>
+
+      <div class="about__container">
+        <div class="about__img">
+          <img src="profile pic.jpg">
+        </div>
+        <div class="about__content">
+          <p>Hi, I'm Elorie :) <br><br></p>
+          <p>I'm a third-year <a href="https://engsci.utoronto.ca/program/what-is-engsci/">Engineering Science</a> student at the University of Toronto, specializing in <a href="https://engsci.utoronto.ca/program/majors/machine-intelligence/">Machine Intelligence</a>.
+          There are two things that I love more than anything: connecting with people and building tools. Through my projects and work, I strive to build tools that can make people's everyday lives a little better. 
+          </p>
         </div>
       </div>
+    
     </div>
-
-    <!-- Education -->
-
-<div class="portfolio" id ="education">
-
-  <h1>education</h1>
-  <div class="portfolio__container">
-    <div class="portfolio__image">
-      <img src="uoft.png">
-    </div>
-    <div class="portfolio__content">
-      <h2>Bachelor of Applied Science & Engineering (B.A.Sc.) in Engineering Science + PEY</h2>
-      <h3>University of Toronto, Toronto, ON  |  Sept 2022 - May 2027</h3>
-      <p>Relevant Courses: Introduction to Computer Programming (Python), Engineering Mathematics and Computation (MATLAB), Computer Algorithms and Data Structures (C, Python), Digital and Computer Systems (System Verilog, RISC-V, FPGA programming)</p>
-    </div>
-  </div>
-
-</div>
-
 
 
 <!-- Professional & Community Experience Section -->
-<div class="experience" id ="experience">
-  <h1>experience</h1>
-<div class="container">
-  <div class="timeline">
+
+<div class="experience-container" id="experience">
+<h1>professional experience</h1>
+<div class="experience" onclick="toggleDescription('experience1')">
+  <div class="dates">May 2024 - Aug 2024</div>
+  <h2>Vehicle Instrumentation and Test Automation Intern</h2>
+  <h3>Bombardier Recreational Products</h3>
+  <div id="experience1" class="description">
     <ul>
-      <li>
-        <div class="timeline-content">
-          <h3 class="date">Sept 2023 - Present  | Toronto, ON</h3>
-          <h2>Software Member @ University of Toronto Robotics Association: Robosoccer Club</h2>
-          <p>As a software team member on the humanoid robosoccer team at UofT, I build and debug the software that controls a humanoid robot as it
-            works in a team of three to play soccer against another team. This year’s improvement projects include building a behavioral tree for more effective decision-making and improving its computer vision.</p>
-        </div>
-      </li>
-      
-      <li>
-        <div class="timeline-content">
-          <h3 class="date">May 2023 - Aug 2023  |  Toronto, ON</h3>
-          <h2>IT Systems Intern @ Treasury Board Secretariat of the Ontario Public Service</h2>
-          <p> I worked with the IT auditing team over the summer as an IT systems intern. I designed presentations in Power BI, compiled over 50 extracts of research with another intern on I&IT Talent management in interactive Excel sheets
-             (including standards from ISO, COBIT, NIST, and GO-ITS). To assist in a 3-month audit of End-User IT asset Lifecycle Management, I recorded meeting notes during client interviews, managed documents, and proof-read the audit report.</p>
-        </div>
-      </li>
-      
-      <li>
-        <div class="timeline-content">
-          <h3 class="date">Apr 2022 - Aug 2022  |  Vaughan, ON</h3>
-          <h2>IT Technician @ Canada's Wonderland</h2>
-          <p>In collaboration with 3 other technicians, I performed upgrades to Simphony 2.0 and deployed over 300 POS systems
-            in the park, including their respective peripherals (scanners, printers, cameras) and required peripheral drivers, to
-            ensure a fully operational cash-less park. I troubleshooted networking, hardware, and software issues for employees in the office.
-            I also configured Cisco network phones and Cisco Finesse (queues shared among phones) to allow for more effective
-            online customer service support.</p>
-        </div>
-      </li>
-      
-      <li>
-        <div class="timeline-content">
-          <h3 class="date">Sept 2019 - June 2022  |  Richmond Hill, ON</h3>
-          <h2>Team Captain @ Ironworks Robotics (team in FIRST Robotics Canada) </h2>
-          <p>Managed over 50 people and 9 leads to create an enjoyable learning environment for computer-aided design, programming, and manufacturing. In yearly competition seasons, I helped the team in building a robot capable of shooting, hanging, collecting balls, and driving autonomously.</p>
-        </div>
-      </li>
-      
+      <li>Automated communications (RS-232 over serial) in a battery test station with Python (PySerial library). Created respective documentation on the program and communication instructions through terminal emulators (e.g. PuTTY, HyperTerminal).</li>
+      <li>Read and created new electrical schematics, mechanical drawings, bill of materials lists, and budgets to troubleshoot and maintain 3 tow dynamometers (trailers equipped with an eddy current to apply a load to vehicles during testing). </li>
+      <li>Created a Google Sheets tool with AppScript and other automations for the maintenance and operation of the company's tow dynamometers.</li>
+      <li>Gave a technical presentation to over 30 people, presenting the tools that I created during my internship and their functionalities.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="experience" onclick="toggleDescription('experience2')">
+  <div class="dates">May 2023 - Aug 2023</div>
+  <h2>IT Systems Auditing Intern</h2>
+  <h3>Treasury Board of Ontario (Ontario Public Service)</h3>
+  <div id="experience2" class="description">
+    <ul>
+      <li>Designed a presentation in Power BI for a team of over 10 people.</li>
+      <li>Compiled over 50 extracts of research with another intern on I&IT Talent management in interactive Excel sheets with different views, including pivot tables and filtration options to assist the team in an upcoming audit.</li>
+      <li>Used standards provided by ISO, COBIT, NIST, and GO-ITS to supplement research and guide audit recommendations. Worked in an Agile environment for an iterative cybersecurity audit.</li>
+      <li>Recorded meeting notes with another intern for client interviews, managed documents, proof-read the audit report and performed research to assist in a 3-month audit of End-User IT Asset Lifecycle Management</li>
+    </ul>
+  </div>
+</div>
+
+<div class="experience" onclick="toggleDescription('experience3')">
+  <div class="dates">Apr 2022 - Aug 2022</div>
+  <h2>IT Technician</h2>
+  <h3> Canada's Wonderland </h3>
+  <div id="experience3" class="description">
+    <ul>
+      <li>Performed upgrades to Simphony 2.0 and deployed over 300 POS systems in the park, including their respective peripherals (scanners, printers, cameras) and required peripheral drivers, to ensure a fully operational cashless park.</li>
+      <li>Troubleshooted networking, hardware, and software issues for employees in the office.</li>
+      <li>Configured Cisco network phones and Cisco Finesse (queues shared among phones) to allow for more effective online customer service support.</li>
     </ul>
   </div>
 </div>
 </div>
 
+
+<div class="experience-container" id="experience">
+  <h1>community experience</h1>
+  <div class="experience" onclick="toggleDescription('experience4')">
+    <div class="dates">Aug 2023 - Present</div>
+    <h2>Software Member (Computer Vision, Strategy)</h2>
+    <h3>Humanoid Robosoccer Club @ University of Toronto Robotics Association</h3>
+    <div id="experience1" class="description">
+      <ul>
+        <li>Currently cleaning up Python code and files</li>
+        <li>Completed camera calibration and its integration as a node in ROS for a humanoid robot.</li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="experience" onclick="toggleDescription('experience5')">
+    <div class="dates">May 2023 - Aug 2023</div>
+    <h2>Robotics Team Captain</h2>
+    <h3>FIRST Robotics Competition</h3>
+    <div id="experience2" class="description">
+      <ul>
+        <li></li>
+      </ul>
+    </div>
+  </div>
+
+  
+<!--
+  <div class="experience-container" id="experience">
+    <h1>what I've been up to</h1>
+    <div class="experience" onclick="toggleDescription('experience1')">
+      <h2>2024: Second year of university, Travelling to Europe, Engineering co-op in Quebec, ... </h2>
+      <div id="experience1" class="description">
+        <ul>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="experience" onclick="toggleDescription('experience2')">
+      <div class="dates">May 2023 - Aug 2023</div>
+      <h2>IT Systems Auditing Intern</h2>
+      <h3>Treasury Board of Ontario (Ontario Public Service)</h3>
+      <div id="experience2" class="description">
+        <ul>
+          <li>Designed a presentation in Power BI for a team of over 10 people.</li>
+          <li>Compiled over 50 extracts of research with another intern on I&IT Talent management in interactive Excel sheets with different views, including pivot tables and filtration options to assist the team in an upcoming audit.</li>
+          <li>Used standards provided by ISO, COBIT, NIST, and GO-ITS to supplement research and guide audit recommendations. Worked in an Agile environment for an iterative cybersecurity audit.</li>
+          <li>Recorded meeting notes with another intern for client interviews, managed documents, proof-read the audit report and performed research to assist in a 3-month audit of End-User IT Asset Lifecycle Management</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="experience" onclick="toggleDescription('experience3')">
+      <div class="dates">Apr 2022 - Aug 2022</div>
+      <h2>IT Technician</h2>
+      <h3> Canada's Wonderland </h3>
+      <div id="experience3" class="description">
+        <ul>
+          <li>Performed upgrades to Simphony 2.0 and deployed over 300 POS systems in the park, including their respective peripherals (scanners, printers, cameras) and required peripheral drivers, to ensure a fully operational cashless park.</li>
+          <li>Troubleshooted networking, hardware, and software issues for employees in the office.</li>
+          <li>Configured Cisco network phones and Cisco Finesse (queues shared among phones) to allow for more effective online customer service support.</li>
+        </ul>
+      </div>
+    </div>
+    </div>
+    
+  -->
+<script>
+  function toggleDescription(id) {
+    var description = document.getElementById(id);
+    description.classList.toggle('visible');
+  }
+</script>
 
     <!-- Portfolio Section -->
 
