@@ -2,182 +2,121 @@
 
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personal Website</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Website</title>
 
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hind&family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css" />
-    <script src="https://kit.fontawesome.com/20bf466d98.js" crossorigin="anonymous"></script>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
-      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
-      crossorigin="anonymous"
-    />
-    
-    
-  </head>
-  <body>
-    <!-- Navbar Section -->
-    <nav class="navbar">
-      <div class="navbar__container">
-        <a href="#home" id="navbar__logo">e b l</a>
-        <div class="navbar__toggle" id="mobile-menu">
-          <span class="bar"></span> <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-        <ul class="navbar__menu">
-          <li class="navbar__item">
-            <a href="#about" class="navbar__links" id="about-page">about</a>
-          </li>
-          <li class="navbar__item">
-            <a href="#experience" class="navbar__links" id="experience-page">experience</a>
-          </li>
-          <li class="navbar__item">
-            <a href="#portfolio" class="navbar__links" id="portfolio-page">portfolio</a>
-          </li>
-          <li class="navbar__item">
-            <a href="#contact" class="navbar__links" id="contact-page">contact</a>
-          </li>
-          <li class="navbar__btn">
-            <a href="Elorie_Bernard_Lacroix___Resume (5).pdf" class="button" target="_blank">résumé</a>
-          </li>
-          
-        </ul>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind&family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://kit.fontawesome.com/20bf466d98.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+
+
+</head>
+
+<body>
+  <!-- Navbar Section -->
+  <nav class="navbar">
+    <div class="navbar__container">
+      <a href="#home" id="navbar__logo">e b l</a>
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span> <span class="bar"></span>
+        <span class="bar"></span>
       </div>
-    </nav>
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="#about" class="navbar__links" id="about-page">about</a>
+        </li>
+        <li class="navbar__item">
+          <a href="#experience" class="navbar__links" id="experience-page">experience</a>
+        </li>
+        <li class="navbar__item">
+          <a href="#portfolio" class="navbar__links" id="portfolio-page">portfolio</a>
+        </li>
+        <li class="navbar__item">
+          <a href="#contact" class="navbar__links" id="contact-page">contact</a>
+        </li>
+        <li class="navbar__btn">
+          <a href="Elorie_Bernard_Lacroix___Resume (5).pdf" class="button" target="_blank">résumé</a>
+        </li>
 
-    <!-- Home Section -->
-    
-    <div class="hero" id="home">
-
-        <div id = "hero__container" class="hero__container"></div>
-          <p class="hero__heading1">Elorie Bernard-Lacroix</p>
-          <div class="wrapper">
-            <div class="static-txt">I'm</div>
-            <ul class="dynamic-txts">
-              <li><span>an engineering student at UofT</span></li>
-              <li><span>an aspiring robotics and AI engineer</span></li>
-              <li><span>an avid reader</span></li>
-              <li><span>a data brain looking for datasets</span></li>
-            </ul>
-          </div>
-          
-        </div>
-        
-    </div>
-
-    <!-- About Me -->
-
-    <div class="about" id ="about">
-
-      <h1>about me</h1>
-
-      <div class="about__container">
-        <div class="about__img">
-          <img src="profile pic.jpg">
-        </div>
-        <div class="about__content">
-          <p>Hi, I'm Elorie :) <br><br></p>
-          <p>I'm a third-year <a href="https://engsci.utoronto.ca/program/what-is-engsci/">Engineering Science</a> student at the University of Toronto, specializing in <a href="https://engsci.utoronto.ca/program/majors/machine-intelligence/">Machine Intelligence</a>.
-          There are two things that I love more than anything: connecting with people and building tools. Through my projects and work, I strive to build tools that can make people's everyday lives a little better. 
-          </p>
-        </div>
-      </div>
-    
-    </div>
-
-
-<!-- Professional & Community Experience Section -->
-
-<div class="experience-container" id="experience">
-<h1>professional experience</h1>
-<div class="experience" onclick="toggleDescription('experience1')">
-  <div class="dates">May 2024 - Aug 2024</div>
-  <h2>Vehicle Instrumentation and Test Automation Intern</h2>
-  <h3>Bombardier Recreational Products</h3>
-  <div id="experience1" class="description">
-    <ul>
-      <li>Automated communications (RS-232 over serial) in a battery test station with Python (PySerial library). Created respective documentation on the program and communication instructions through terminal emulators (e.g. PuTTY, HyperTerminal).</li>
-      <li>Read and created new electrical schematics, mechanical drawings, bill of materials lists, and budgets to troubleshoot and maintain 3 tow dynamometers (trailers equipped with an eddy current to apply a load to vehicles during testing). </li>
-      <li>Created a Google Sheets tool with AppScript and other automations for the maintenance and operation of the company's tow dynamometers.</li>
-      <li>Gave a technical presentation to over 30 people, presenting the tools that I created during my internship and their functionalities.</li>
-    </ul>
-  </div>
-</div>
-
-<div class="experience" onclick="toggleDescription('experience2')">
-  <div class="dates">May 2023 - Aug 2023</div>
-  <h2>IT Systems Auditing Intern</h2>
-  <h3>Treasury Board of Ontario (Ontario Public Service)</h3>
-  <div id="experience2" class="description">
-    <ul>
-      <li>Designed a presentation in Power BI for a team of over 10 people.</li>
-      <li>Compiled over 50 extracts of research with another intern on I&IT Talent management in interactive Excel sheets with different views, including pivot tables and filtration options to assist the team in an upcoming audit.</li>
-      <li>Used standards provided by ISO, COBIT, NIST, and GO-ITS to supplement research and guide audit recommendations. Worked in an Agile environment for an iterative cybersecurity audit.</li>
-      <li>Recorded meeting notes with another intern for client interviews, managed documents, proof-read the audit report and performed research to assist in a 3-month audit of End-User IT Asset Lifecycle Management</li>
-    </ul>
-  </div>
-</div>
-
-<div class="experience" onclick="toggleDescription('experience3')">
-  <div class="dates">Apr 2022 - Aug 2022</div>
-  <h2>IT Technician</h2>
-  <h3> Canada's Wonderland </h3>
-  <div id="experience3" class="description">
-    <ul>
-      <li>Performed upgrades to Simphony 2.0 and deployed over 300 POS systems in the park, including their respective peripherals (scanners, printers, cameras) and required peripheral drivers, to ensure a fully operational cashless park.</li>
-      <li>Troubleshooted networking, hardware, and software issues for employees in the office.</li>
-      <li>Configured Cisco network phones and Cisco Finesse (queues shared among phones) to allow for more effective online customer service support.</li>
-    </ul>
-  </div>
-</div>
-</div>
-
-
-<div class="experience-container" id="experience">
-  <h1>community experience</h1>
-  <div class="experience" onclick="toggleDescription('experience4')">
-    <div class="dates">Aug 2023 - Present</div>
-    <h2>Software Member (Computer Vision, Strategy)</h2>
-    <h3>Humanoid Robosoccer Club @ University of Toronto Robotics Association</h3>
-    <div id="experience1" class="description">
-      <ul>
-        <li>Currently cleaning up Python code and files</li>
-        <li>Completed camera calibration and its integration as a node in ROS for a humanoid robot.</li>
       </ul>
     </div>
-  </div>
-  
-  <div class="experience" onclick="toggleDescription('experience5')">
-    <div class="dates">May 2023 - Aug 2023</div>
-    <h2>Robotics Team Captain</h2>
-    <h3>FIRST Robotics Competition</h3>
-    <div id="experience2" class="description">
-      <ul>
-        <li></li>
+  </nav>
+
+  <!-- Home Section -->
+
+  <div class="hero" id="home">
+
+    <div id="hero__container" class="hero__container"></div>
+    <p class="hero__heading1">Elorie Bernard-Lacroix</p>
+    <div class="wrapper">
+      <div class="static-txt">I'm</div>
+      <ul class="dynamic-txts">
+        <li><span>an engineering student at UofT</span></li>
+        <li><span>an avid reader and ponderer</span></li>
+        <li><span>an aspiring robotics and AI engineer</span></li>
+        <li><span>an insatiable learner</span></li>
       </ul>
     </div>
+
   </div>
 
-  
-<!--
+  </div>
+
+  <!-- About Me -->
+
+  <div class="about" id="about">
+
+    <h1>about me</h1>
+
+    <div class="about__container">
+      <div class="about__img">
+        <img src="profile pic.jpg">
+      </div>
+      <div class="about__content">
+        <p>Hi, I'm Elorie :) <br><br></p>
+        <p>I'm a third-year <a href="https://engsci.utoronto.ca/program/what-is-engsci/">Engineering Science</a> student
+          at the University of Toronto, specializing in <a
+            href="https://engsci.utoronto.ca/program/majors/machine-intelligence/">Machine Intelligence</a>.
+          There are two things that I love more than anything: connecting with people and building tools. Through my
+          projects and work, I strive to build tools that can make people's everyday lives a little better.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- Professional & Community Experience Section -->
+
   <div class="experience-container" id="experience">
-    <h1>what I've been up to</h1>
+    <h1>professional experience</h1>
     <div class="experience" onclick="toggleDescription('experience1')">
-      <h2>2024: Second year of university, Travelling to Europe, Engineering co-op in Quebec, ... </h2>
+      <div class="dates">May 2024 - Aug 2024</div>
+      <h2>Vehicle Instrumentation and Test Automation Intern</h2>
+      <h3>Bombardier Recreational Products</h3>
       <div id="experience1" class="description">
         <ul>
-          <li></li>
+          <li>Automated communications (RS-232 over serial) in a battery test station with Python (PySerial library).
+            Created respective documentation on the program and communication instructions through terminal emulators
+            (e.g. PuTTY, HyperTerminal).</li>
+          <li>Read and created new electrical schematics, mechanical drawings, bill of materials lists, and budgets to
+            troubleshoot and maintain 3 tow dynamometers (trailers equipped with an eddy current to apply a load to
+            vehicles during testing). </li>
+          <li>Created a Google Sheets tool with AppScript and other automations for the maintenance and operation of the
+            company's tow dynamometers.</li>
+          <li>Gave a technical presentation to over 30 people, presenting the tools that I created during my internship
+            and their functionalities.</li>
         </ul>
       </div>
     </div>
-    
+
     <div class="experience" onclick="toggleDescription('experience2')">
       <div class="dates">May 2023 - Aug 2023</div>
       <h2>IT Systems Auditing Intern</h2>
@@ -185,112 +124,179 @@
       <div id="experience2" class="description">
         <ul>
           <li>Designed a presentation in Power BI for a team of over 10 people.</li>
-          <li>Compiled over 50 extracts of research with another intern on I&IT Talent management in interactive Excel sheets with different views, including pivot tables and filtration options to assist the team in an upcoming audit.</li>
-          <li>Used standards provided by ISO, COBIT, NIST, and GO-ITS to supplement research and guide audit recommendations. Worked in an Agile environment for an iterative cybersecurity audit.</li>
-          <li>Recorded meeting notes with another intern for client interviews, managed documents, proof-read the audit report and performed research to assist in a 3-month audit of End-User IT Asset Lifecycle Management</li>
+          <li>Compiled over 50 extracts of research with another intern on I&IT Talent management in interactive Excel
+            sheets with different views, including pivot tables and filtration options to assist the team in an upcoming
+            audit.</li>
+          <li>Used standards provided by ISO, COBIT, NIST, and GO-ITS to supplement research and guide audit
+            recommendations. Worked in an Agile environment for an iterative cybersecurity audit.</li>
+          <li>Recorded meeting notes with another intern for client interviews, managed documents, proof-read the audit
+            report and performed research to assist in a 3-month audit of End-User IT Asset Lifecycle Management</li>
         </ul>
       </div>
     </div>
-    
+
     <div class="experience" onclick="toggleDescription('experience3')">
       <div class="dates">Apr 2022 - Aug 2022</div>
       <h2>IT Technician</h2>
       <h3> Canada's Wonderland </h3>
       <div id="experience3" class="description">
         <ul>
-          <li>Performed upgrades to Simphony 2.0 and deployed over 300 POS systems in the park, including their respective peripherals (scanners, printers, cameras) and required peripheral drivers, to ensure a fully operational cashless park.</li>
+          <li>Performed upgrades to Simphony 2.0 and deployed over 300 POS systems in the park, including their
+            respective peripherals (scanners, printers, cameras) and required peripheral drivers, to ensure a fully
+            operational cashless park.</li>
           <li>Troubleshooted networking, hardware, and software issues for employees in the office.</li>
-          <li>Configured Cisco network phones and Cisco Finesse (queues shared among phones) to allow for more effective online customer service support.</li>
+          <li>Configured Cisco network phones and Cisco Finesse (queues shared among phones) to allow for more effective
+            online customer service support.</li>
         </ul>
       </div>
     </div>
+  </div>
+
+
+  <div class="experience-container" id="experience">
+    <h1>community experience</h1>
+    <div class="experience" onclick="toggleDescription('experience4')">
+      <div class="dates">Aug 2023 - Present</div>
+      <h2>Software Member (Computer Vision, Strategy)</h2>
+      <h3>Humanoid Robosoccer Club @ University of Toronto Robotics Association</h3>
+      <div id="experience1" class="description">
+        <ul>
+          <li>Currently cleaning up Python code and files</li>
+          <li>Completed camera calibration and its integration as a node in ROS for a humanoid robot.</li>
+        </ul>
+      </div>
     </div>
-    
-  -->
-<script>
-  function toggleDescription(id) {
-    var description = document.getElementById(id);
-    description.classList.toggle('visible');
-  }
-</script>
+
+    <div class="experience" onclick="toggleDescription('experience5')">
+      <div class="dates">May 2023 - Aug 2023</div>
+      <h2>Robotics Team Captain</h2>
+      <h3>FIRST Robotics Competition</h3>
+      <div id="experience2" class="description">
+        <ul>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+
+    <script>
+      function toggleDescription(id) {
+        var description = document.getElementById(id);
+        description.classList.toggle('visible');
+      }
+    </script>
 
     <!-- Portfolio Section -->
 
     <div class="portfolio" id="portfolio">
-    <h1>portfolio</h1>
+      <h1>portfolio</h1>
 
-    <div class="portfolio__container">
-      <div class="image">
-        <img src="download.gif">
+      <div class="portfolio__container">
+        <div class="image">
+          <img src="WaterSan.png">
+        </div>
+        <div class="portfolio__content">
+          <h2>Automated water sanitation system</h2>
+          <h3>Course Project @ University of Toronto (ESC204 Praxis III). With Jessica M., Hyunji K., Preetinder S.,
+            Kristen M., Seoyun Y., Kumkum C., and Joaquin C.</h3>
+          <p>With the use of 3D printing, sensors, motors, and online tools such as Fusion360 and Notion, my team and I
+            prototyped a system that could heat water to a specified temperature, for a given time, and then
+            automatically dispense it to a tank of potable water. A presentation page for this project is coming soon!
+          </p>
+        </div>
       </div>
-      <div class="portfolio__content">
-        <h2>Seam-carving program</h2>
-        <h3>Course Project @ University of Toronto (ESC190 Data Structures & Algorithms). With Chaewon L.</h3>
-        <p>This C program uses dynamic programming to identify vertical paths of pixels in an image that can be removed without distorting the image. It can continue to remove these less important paths one by one, gradually making the image less wide without distorting it or removing meaningful aspects of it. For more details, please refer to the <a href="https://github.com/elorie-bernard-lacroix/ESC190-Project-2">GitHub repository</a>.</p>
+
+      <div class="portfolio__container">
+        <div class="image">
+          <img src="download.gif">
+        </div>
+        <div class="portfolio__content">
+          <h2>Seam-carving program</h2>
+          <h3>Course Project @ University of Toronto (ESC190 Data Structures & Algorithms). With Chaewon L.</h3>
+          <p>This C program uses dynamic programming to identify vertical paths of pixels in an image that can be
+            removed without distorting the image. It can continue to remove these less important paths one by one,
+            gradually making the image less wide without distorting it or removing meaningful aspects of it. For more
+            details, please refer to the <a href="https://github.com/elorie-bernard-lacroix/ESC190-Project-2">GitHub
+              repository</a>.</p>
+        </div>
       </div>
+
+      <div class="portfolio__container">
+        <div class="image">
+          <img src="bridge plots.png">
+        </div>
+        <div class="portfolio__content">
+          <h2>MATLAB Script that predicts the failure load of a specified bridge</h2>
+          <h3>Final Project @ University of Toronto (CIV102 Structures and Materials). With Christine L. and Jocelyn Q.
+          </h3>
+          <p>This MATLAB script calculates the factor of safety for various bridge designs given a load of 400 N. It
+            creates an envelope shear force and considers various types of failure including plate buckling, flexural
+            compression, shear force in the glue and in the MATboard of the bridge, etc. This code was used to build an
+            850 g bridge out of matboard that supported a live load of 1000 N (100 times greater than its self-weight).
+            This result ranked us third place in the Engineering Science 2T6 class. For more details, please refer to
+            its <a href="https://github.com/elorie-bernard-lacroix/bridge-failure-load-calculator">GitHub repository</a>
+            and the <a href="CIV102 Project Team 804 Engineering Drawings.pdf">engineering drawings</a>.</p>
+
+        </div>
+      </div>
+
+      <div class="portfolio__container">
+        <div class="image">
+          <img src="synonyms.png">
+        </div>
+        <div class="portfolio__content">
+          <h2>Synonym Detector</h2>
+          <h3>Course Project @ University of Toronto (ESC180 Introdction to Computer Programming). With Chaewon L.</h3>
+          <p>This python program draws from data in two books and identifies the relationship between words to then
+            identify the synonym of a given word from a list of options in linear time. We were able to obtain a 70%
+            accuracy. For more details, please refer to the <a
+              href="https://github.com/elorie-bernard-lacroix/ESC180_Project3">GitHub repository</a></p>
+
+        </div>
+      </div>
+
+      <div class="portfolio__container">
+        <div class="image">
+          <img src="gomoku.png">
+        </div>
+        <div class="portfolio__content">
+          <h2>Gomoku AI</h2>
+          <h3>Class Project @ University of Toronto (ESC180 Introduction to Computer Programming). With Chaewon L.</h3>
+          <p>Interacts with the user to imitate a game of Gomoku, and includes a built-in smart autonomous player. For
+            more details, please refer to the <a href="https://github.com/elorie-bernard-lacroix/ESC180_Project2">GitHub
+              repository</a></p>
+        </div>
+      </div>
+
+      <div class="portfolio__container">
+        <div class="image">
+          <img src="pendulum.png">
+        </div>
+        <div class="portfolio__content">
+          <h2>Modelling the motion of a pendulum</h2>
+          <h3>Final Project @ University of Toronto (PHY180 Classical Mechanics).</h3>
+          <p>I used digital tracking software to analyze a pendulum's motion. After cleaning, processing and analyzing
+            thousands of lines of data from the video analysis, I expressed conclusions in this <a
+              href="https://drive.google.com/file/d/1qDNoHwfEQqw42YwO9qfTxLYW4AW9W18f/view?usp=sharing">report</a> typed
+            in LaTeX.</p>
+        </div>
+      </div>
+
+      <div class="portfolio__container">
+        <div class="image">
+          <img src="SHAD.png">
+        </div>
+        <div class="portfolio__content">
+          <h2>A gray water filtration system for sinks</h2>
+          <h3>Design Project @ SHAD Canada.</h3>
+          <p>As a participant in SHAD Canada (a program that brings together top students across Canada to participate
+            in a design challenge), my team and I worked on a prototype that would be relatively inexpensive and could
+            filter the water from our sinks to be reused for other purposes. The <a
+              href="https://cad.onshape.com/documents/171c1113efa96bf1afb45eb0/w/e18fa9d5136250b4beae4d3b/e/72b174e36062b4749b5eaaf4?renderMode=0&uiState=65af34135c4cb40d0ebcf829">CAD
+              drawing</a> I made with one of my team members got recognized as the "Best CAD Model".</p>
+        </div>
+      </div>
+
     </div>
-
-
-
-
-    <div class="portfolio__container">
-      <div class="image">
-        <img src="bridge plots.png">
-      </div>
-      <div class="portfolio__content">
-        <h2>MATLAB Script that predicts the failure load of a specified bridge</h2>
-        <h3>Final Project @ University of Toronto (CIV102 Structures and Materials). With Christine L. and Jocelyn Q.</h3>
-        <p>This MATLAB script calculates the factor of safety for various bridge designs given a load of 400 N. It creates an envelope shear force and considers various types of failure including plate buckling, flexural compression, shear force in the glue and in the MATboard of the bridge, etc. This code was used to build an 850 g bridge out of matboard that supported a live load of 1000 N (100 times greater than its self-weight). This result ranked us third place in the Engineering Science 2T6 class. For more details, please refer to its <a href="https://github.com/elorie-bernard-lacroix/bridge-failure-load-calculator">GitHub repository</a> and the <a href="CIV102 Project Team 804 Engineering Drawings.pdf">engineering drawings</a>.</p>
-        
-      </div>
-    </div>
-
-    <div class="portfolio__container">
-      <div class="image">
-        <img src="synonyms.png">
-      </div>
-      <div class="portfolio__content">
-        <h2>Synonym Detector</h2>
-        <h3>Course Project @ University of Toronto (ESC180 Introdction to Computer Programming). With Chaewon L.</h3>
-        <p>This python program draws from data in two books and identifies the relationship between words to then identify the synonym of a given word from a list of options in linear time. We were able to obtain a 70% accuracy. For more details, please refer to the <a href="https://github.com/elorie-bernard-lacroix/ESC180_Project3">GitHub repository</a></p>
-        
-      </div>
-    </div>
-
-    <div class="portfolio__container">
-      <div class="image">
-        <img src="gomoku.png">
-      </div>
-      <div class="portfolio__content">
-        <h2>Gomoku AI</h2>
-        <h3>Class Project @ University of Toronto (ESC180 Introduction to Computer Programming). With Chaewon L.</h3>
-        <p>Interacts with the user to imitate a game of Gomoku, and includes a built-in smart autonomous player. For more details, please refer to the <a href="https://github.com/elorie-bernard-lacroix/ESC180_Project2">GitHub repository</a></p>
-      </div>
-    </div>
-
-    <div class="portfolio__container">
-      <div class="image">
-        <img src="pendulum.png">
-      </div>
-      <div class="portfolio__content">
-        <h2>Modelling the motion of a pendulum</h2>
-        <h3>Final Project @ University of Toronto (PHY180 Classical Mechanics).</h3>
-        <p>I used digital tracking software to analyze a pendulum's motion. After cleaning, processing and analyzing thousands of lines of data from the video analysis, I expressed conclusions in this <a href="https://drive.google.com/file/d/1qDNoHwfEQqw42YwO9qfTxLYW4AW9W18f/view?usp=sharing">report</a> typed in LaTeX.</p>
-      </div>
-    </div>
-
-    <div class="portfolio__container">
-      <div class="image">
-        <img src="SHAD.png">
-      </div>
-      <div class="portfolio__content">
-        <h2>A gray water filtration system for sinks</h2>
-        <h3>Design Project @ SHAD Canada.</h3>
-        <p>As a participant in SHAD Canada (a program that brings together top students across Canada to participate in a design challenge), my team and I worked on a prototype that would be relatively inexpensive and could filter the water from our sinks to be reused for other purposes. The <a href="https://cad.onshape.com/documents/171c1113efa96bf1afb45eb0/w/e18fa9d5136250b4beae4d3b/e/72b174e36062b4749b5eaaf4?renderMode=0&uiState=65af34135c4cb40d0ebcf829">CAD drawing</a> I made with one of my team members got recognized as the "Best CAD Model".</p>
-      </div>
-    </div>
-
-  </div>
 
 
 
@@ -303,34 +309,26 @@
           <p> I'm always happy to meet new people or chat,</p>
           <p>so if any of my work interests you, feel free to reach out!</p>
           <div class="social__icons">
-          
-          <a href="mailto:elorie.bernardlacroix@mail.utoronto.ca" class="social__icon--link" target="_blank"
-            ><i class="fa-solid fa-envelope"></i
-          ></a>
-          <a href="https://www.kaggle.com/eloriebernardlacroix" class="social__icon--link" target="_blank"
-            ><i class="fab fa-kaggle"></i
-          ></a>
-          <a href="https://github.com/elorie-bernard-lacroix" class="social__icon--link" target="_blank"
-            ><i class="fab fa-github"></i
-          ></a>
-          <a href="https://www.linkedin.com/in/elorie-bernard-lacroix-b6646a1aa/" class="social__icon--link" target="_blank"
-            ><i class="fab fa-linkedin"></i
-          ></a>
+
+            <a href="mailto:elorie.bernardlacroix@mail.utoronto.ca" class="social__icon--link" target="_blank"><i
+                class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.kaggle.com/eloriebernardlacroix" class="social__icon--link" target="_blank"><i
+                class="fab fa-kaggle"></i></a>
+            <a href="https://github.com/elorie-bernard-lacroix" class="social__icon--link" target="_blank"><i
+                class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/elorie-bernard-lacroix-b6646a1aa/" class="social__icon--link"
+              target="_blank"><i class="fab fa-linkedin"></i></a>
           </div>
 
         </div>
-        
-        
+
+
       </div>
 
     </div>
 
-
-
-
-
     <script src="app.js"></script>
 
+</body>
 
-  </body>
 </html>
