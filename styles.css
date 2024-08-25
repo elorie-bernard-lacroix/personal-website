@@ -7,7 +7,6 @@
   scroll-behavior: smooth;
   background-color: RGB(29, 29, 29);
   background:RGB(29, 29, 29);
-  
 }
 
 
@@ -104,10 +103,6 @@
 }
 
 @media screen and (max-width: 960px) {
-
-  * {
-    overflow-x: hidden;
-  }
   .navbar__container {
     display: flex;
     justify-content: space-between;
@@ -212,18 +207,7 @@ h1 {
   margin-bottom: 2.5rem;
   margin-top: 1.5rem;
   font-size: 2.5rem;
-  justify-content: center;
-  align-items: center;
 }
-
-h3 {
-  font-size: 12px;
-  font-weight: 300;
-  margin-bottom: 1.5rem;
-  letter-spacing: 2px;
-  color: #fff;
-}
-
 
 
 /* Hero Section */
@@ -440,6 +424,13 @@ h3 {
   max-width: 350px;
 }
 
+h3 {
+  font-size: 12px;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+  letter-spacing: 2px;
+  color: #fff;
+}
 
 @media screen and (max-width: 1000px) {
 
@@ -600,8 +591,6 @@ h3 {
     justify-content: center;
 
   }
-
-
   
 }
 
@@ -678,8 +667,8 @@ h3 {
   }
 
   .portfolio__container {
-    display: block;
-    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -688,29 +677,29 @@ h3 {
   }
 
   .portfolio__content {
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     padding: 2%;
-    display: block;
-    /* Ensures the image behaves as a block element */
-    margin: 0 auto;
   }
 
   .portfolio p {
     font-size: 1rem;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
 
   .portfolio h2 {
-    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
 
   img {
-    padding-top: 10%;
+    padding-bottom: 10%;
     display: block;
     /* Ensures the image behaves as a block element */
     margin: 0 auto;
     /* Centers the image horizontally */
-    width: 80%;
+    width: 90%;
   }
 
 
