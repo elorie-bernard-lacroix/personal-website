@@ -696,6 +696,10 @@ h3 {
     text-align: center;
   }
 
+  .portfolio h3 {
+    text-align: center;
+  }
+
   img {
     padding-top: 5%;
     display: block;
