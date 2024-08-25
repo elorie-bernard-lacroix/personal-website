@@ -7,7 +7,7 @@
   scroll-behavior: smooth;
   background-color: RGB(29, 29, 29);
   background:RGB(29, 29, 29);
-  overflow-x: hidden;
+  
 }
 
 
@@ -104,6 +104,10 @@
 }
 
 @media screen and (max-width: 960px) {
+
+  * {
+    overflow-x: hidden;
+  }
   .navbar__container {
     display: flex;
     justify-content: space-between;
@@ -674,8 +678,8 @@ h3 {
   }
 
   .portfolio__container {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: block;
+    margin: 0 auto;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -684,29 +688,29 @@ h3 {
   }
 
   .portfolio__content {
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     padding: 2%;
+    display: block;
+    /* Ensures the image behaves as a block element */
+    margin: 0 auto;
   }
 
   .portfolio p {
     font-size: 1rem;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
   }
 
   .portfolio h2 {
-    align-items: center;
-    justify-content: center;
+    text-align: center;
   }
 
   img {
-    padding-bottom: 10%;
+    padding-top: 10%;
     display: block;
     /* Ensures the image behaves as a block element */
     margin: 0 auto;
     /* Centers the image horizontally */
-    width: 90%;
+    width: 80%;
   }
 
 
