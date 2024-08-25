@@ -207,7 +207,18 @@ h1 {
   margin-bottom: 2.5rem;
   margin-top: 1.5rem;
   font-size: 2.5rem;
+  justify-content: center;
+  align-items: center;
 }
+
+h3 {
+  font-size: 12px;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
 
 
 /* Hero Section */
@@ -424,13 +435,6 @@ h1 {
   max-width: 350px;
 }
 
-h3 {
-  font-size: 12px;
-  font-weight: 300;
-  margin-bottom: 1.5rem;
-  letter-spacing: 2px;
-  color: #fff;
-}
 
 @media screen and (max-width: 1000px) {
 
@@ -591,6 +595,8 @@ h3 {
     justify-content: center;
 
   }
+
+
   
 }
 
